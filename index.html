@@ -69,10 +69,24 @@ if (isset($_POST['save_info'])) saveInfo();
 		<h5>mm translated song is here</h5>
 		<p>official@transong.com</p>
 	  </div>
-	  <a onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
-	  <a onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-	  <a onclick="w3_close()" class="w3-bar-item w3-button">Privacy Policy</a>
+	  <a href="#contents" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+          <a href="#contentsA" onclick="w3_close()" class="w3-bar-item w3-button">Menu</a>
+	  <a href="https://tran-song.github.io/php/menu.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+	  <a href="https://tran-song.github.io/php/policy.html" onclick="w3_close()" class="w3-bar-item w3-button">Privacy Policy</a>
+
+          <div class="w3-dropdown-hover">
+		<button class="w3-bar-item w3-button" title="More">More<i class="fa fa-caret-down"></i></button>     
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+		  <a href="https://tran-song.github.io/php/terms.html" class="w3-bar-item w3-button">terms</a>
+		  <a href="https://tran-song.github.io/php/terms.html" class="w3-bar-item w3-button">helps</a>
+		  <a href="https://tran-song.github.io/php/terms.html" class="w3-bar-item w3-button">contact</a>
+		</div>
+	  </div>
+
+        <a href="https://play.google.com/store/apps/details?id=com.translatesong.mv" onclick="w3_close()" class="w3-bar-item w3-button">Mobile App</a>
     </div>
+
+
 
     <header id="header" class="w3-card-4 w3-white">
 	  <div class="menu w3-display-container" onclick="w3_open()">
@@ -162,7 +176,7 @@ if (isset($_POST['save_info'])) saveInfo();
 
 
 		
-	<div id="contents" class="content">
+	<div id="contentsA" class="content">
 	  
 	  
 	  <div class="parent-tab">
